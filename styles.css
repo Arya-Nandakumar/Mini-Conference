@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    background: #250d44;
+}
+
+li,a,button {
+    font-family: sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #070c0e;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #250d44;
+}
+.cta button{
+    padding: 9px 25px;
+    background: linear-gradient(
+        to left,
+        #F740BD,
+        #5B6EF5);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cta button:hover{
+    background: linear-gradient(#c91991,#2031b4);
+}
+
+.footer{
+    margin-inline-start: 2px;
+    background-color: #462f64;
+    margin: 0;
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+.flogo{
+    cursor: pointer;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 170px;
+    height: 70px;
+    float: left;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #070c0e;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;   
+}
+
+.footer-col ul li a:hover{
+	color: #615d5d;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #1b1919;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+
+}
+.fa {
+    padding: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+#page-container {
+    
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;   
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12rem;            
+}
+h1 {
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    background: linear-gradient( #F740BD,#5B6EF5);
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    text-align: auto;
+    clear: right;
+}
+h2 {
+    -webkit-text-stroke-width: 3px;
+    font-size: 72px;
+    background: linear-gradient( #F740BD,#5B6EF5);
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    text-align: auto;
+    clear: right;
+}
+h3{
+    font-family: sans-serif;
+    color: #040a0c;
+}
+.heading-container{
+    padding-top: 80px;
+    margin-left: 40px;
+    margin-right: 600px;
+    clear: right;
+}
+.group{
+    margin-left: auto;
+    display: block;
+    padding-bottom: 40px;
+}
+.fa-facebook {
+    background: #0b0f13;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #0b0f13;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #0b0f13;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background: #0b0f13;
+    color: white;
+  }
+  
