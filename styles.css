@@ -208,7 +208,9 @@ h3{
 .group{
     margin-left: auto;
     display: block;
-    padding-bottom: 40px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
 }
 .fa-facebook {
     background: #0b0f13;
@@ -230,4 +232,16 @@ h3{
     background: #0b0f13;
     color: white;
   }
-  
+.map{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+iframe{
+    width: 80%;
+    height: 500px;
+    filter: invert(90%);
+}
