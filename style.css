@@ -336,3 +336,33 @@ h5{
     text-align: auto;
     clear: right;
 }
+
+#cards{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.boxcontainer{
+  background: #807676;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 40%;
+  box-shadow: 0px 0px 8px -2px rgb(235, 235, 235);
+}
+
+.cardrow{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 30px;
+}
+.para{
+  color: #0f0d0d;
+}
+.time{
+  color: #020202;
+  font-weight: bold;
+  font-size: 13px;
+}
