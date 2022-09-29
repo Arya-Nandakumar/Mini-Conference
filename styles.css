@@ -147,12 +147,12 @@ p{
     box-shadow: 0 0 0 2em var(--border-color-dark),
               0 0 0 4em var(--border-color-normal),
               0 0 0 6em var(--border-color-light);
-    height: 55vw;
+    height: 35vw;
     margin: 0;
     position: absolute;
-    right: -16vw;
-    top: 0vw;
-    width: 55vw;
+    right: -2vw;
+    top: -7vw;
+    width: 35vw;
   } 
   .header-description{
     margin: 6em 3em 0;
@@ -181,6 +181,7 @@ p{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    scroll-snap-align: start;
   }  
 
   .section2{
@@ -190,6 +191,7 @@ p{
     display: -ms-flexbox;
     display: flex;
   }  
+
 
 html,body{
 
